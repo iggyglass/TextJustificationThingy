@@ -2,14 +2,20 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace TextJustifyer
+namespace RopeDataStructure
 {
-    public class RopeNode
+    internal class RopeNode
     {
+        public RopeNode Parent;
         public RopeNode Left;
         public RopeNode Right;
 
         public int Weight;
         public string Text;
+
+        public RopeNode(string text)
+        {
+            Text = text;
+        }
     }
 }

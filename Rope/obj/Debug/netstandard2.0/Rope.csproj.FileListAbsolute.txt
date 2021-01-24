@@ -1,0 +1,8 @@
+C:\Users\iggyg\source\repos\TextJustificationThingy\Rope\bin\Debug\netstandard2.0\Rope.deps.json
+C:\Users\iggyg\source\repos\TextJustificationThingy\Rope\bin\Debug\netstandard2.0\Rope.dll
+C:\Users\iggyg\source\repos\TextJustificationThingy\Rope\bin\Debug\netstandard2.0\Rope.pdb
+C:\Users\iggyg\source\repos\TextJustificationThingy\Rope\obj\Debug\netstandard2.0\Rope.csprojAssemblyReference.cache
+C:\Users\iggyg\source\repos\TextJustificationThingy\Rope\obj\Debug\netstandard2.0\Rope.AssemblyInfoInputs.cache
+C:\Users\iggyg\source\repos\TextJustificationThingy\Rope\obj\Debug\netstandard2.0\Rope.AssemblyInfo.cs
+C:\Users\iggyg\source\repos\TextJustificationThingy\Rope\obj\Debug\netstandard2.0\Rope.dll
+C:\Users\iggyg\source\repos\TextJustificationThingy\Rope\obj\Debug\netstandard2.0\Rope.pdb

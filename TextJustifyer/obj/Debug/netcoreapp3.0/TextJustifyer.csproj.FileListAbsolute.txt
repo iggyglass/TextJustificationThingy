@@ -1,0 +1,14 @@
+C:\Users\iggyg\source\repos\TextJustificationThingy\TextJustifyer\bin\Debug\netcoreapp3.0\TextJustifyer.exe
+C:\Users\iggyg\source\repos\TextJustificationThingy\TextJustifyer\bin\Debug\netcoreapp3.0\TextJustifyer.deps.json
+C:\Users\iggyg\source\repos\TextJustificationThingy\TextJustifyer\bin\Debug\netcoreapp3.0\TextJustifyer.runtimeconfig.json
+C:\Users\iggyg\source\repos\TextJustificationThingy\TextJustifyer\bin\Debug\netcoreapp3.0\TextJustifyer.runtimeconfig.dev.json
+C:\Users\iggyg\source\repos\TextJustificationThingy\TextJustifyer\bin\Debug\netcoreapp3.0\TextJustifyer.dll
+C:\Users\iggyg\source\repos\TextJustificationThingy\TextJustifyer\bin\Debug\netcoreapp3.0\TextJustifyer.pdb
+C:\Users\iggyg\source\repos\TextJustificationThingy\TextJustifyer\obj\Debug\netcoreapp3.0\TextJustifyer.csprojAssemblyReference.cache
+C:\Users\iggyg\source\repos\TextJustificationThingy\TextJustifyer\obj\Debug\netcoreapp3.0\TextJustifyer.AssemblyInfoInputs.cache
+C:\Users\iggyg\source\repos\TextJustificationThingy\TextJustifyer\obj\Debug\netcoreapp3.0\TextJustifyer.AssemblyInfo.cs
+C:\Users\iggyg\source\repos\TextJustificationThingy\TextJustifyer\obj\Debug\netcoreapp3.0\TextJustifyer.dll
+C:\Users\iggyg\source\repos\TextJustificationThingy\TextJustifyer\obj\Debug\netcoreapp3.0\TextJustifyer.pdb
+C:\Users\iggyg\source\repos\TextJustificationThingy\TextJustifyer\bin\Debug\netcoreapp3.0\Rope.dll
+C:\Users\iggyg\source\repos\TextJustificationThingy\TextJustifyer\bin\Debug\netcoreapp3.0\Rope.pdb
+C:\Users\iggyg\source\repos\TextJustificationThingy\TextJustifyer\obj\Debug\netcoreapp3.0\TextJustifyer.csproj.CopyComplete
