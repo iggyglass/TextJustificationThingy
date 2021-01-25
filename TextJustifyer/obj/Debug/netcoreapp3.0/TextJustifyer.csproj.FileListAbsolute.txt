@@ -12,3 +12,19 @@ C:\Users\iggyg\source\repos\TextJustificationThingy\TextJustifyer\obj\Debug\netc
 C:\Users\iggyg\source\repos\TextJustificationThingy\TextJustifyer\bin\Debug\netcoreapp3.0\Rope.dll
 C:\Users\iggyg\source\repos\TextJustificationThingy\TextJustifyer\bin\Debug\netcoreapp3.0\Rope.pdb
 C:\Users\iggyg\source\repos\TextJustificationThingy\TextJustifyer\obj\Debug\netcoreapp3.0\TextJustifyer.csproj.CopyComplete
+\\GMRDC1\Folder Redirection\iggy.glassman\Documents\Visual Studio 2019\Projects\TextJustifyer\TextJustifyer\bin\Debug\netcoreapp3.0\TextJustifyer.exe
+\\GMRDC1\Folder Redirection\iggy.glassman\Documents\Visual Studio 2019\Projects\TextJustifyer\TextJustifyer\bin\Debug\netcoreapp3.0\TextJustifyer.deps.json
+\\GMRDC1\Folder Redirection\iggy.glassman\Documents\Visual Studio 2019\Projects\TextJustifyer\TextJustifyer\bin\Debug\netcoreapp3.0\TextJustifyer.runtimeconfig.json
+\\GMRDC1\Folder Redirection\iggy.glassman\Documents\Visual Studio 2019\Projects\TextJustifyer\TextJustifyer\bin\Debug\netcoreapp3.0\TextJustifyer.runtimeconfig.dev.json
+\\GMRDC1\Folder Redirection\iggy.glassman\Documents\Visual Studio 2019\Projects\TextJustifyer\TextJustifyer\bin\Debug\netcoreapp3.0\TextJustifyer.dll
+\\GMRDC1\Folder Redirection\iggy.glassman\Documents\Visual Studio 2019\Projects\TextJustifyer\TextJustifyer\bin\Debug\netcoreapp3.0\TextJustifyer.pdb
+\\GMRDC1\Folder Redirection\iggy.glassman\Documents\Visual Studio 2019\Projects\TextJustifyer\TextJustifyer\bin\Debug\netcoreapp3.0\Rope.dll
+\\GMRDC1\Folder Redirection\iggy.glassman\Documents\Visual Studio 2019\Projects\TextJustifyer\TextJustifyer\bin\Debug\netcoreapp3.0\Rope.pdb
+\\GMRDC1\Folder Redirection\iggy.glassman\Documents\Visual Studio 2019\Projects\TextJustifyer\TextJustifyer\obj\Debug\netcoreapp3.0\TextJustifyer.csprojAssemblyReference.cache
+\\GMRDC1\Folder Redirection\iggy.glassman\Documents\Visual Studio 2019\Projects\TextJustifyer\TextJustifyer\obj\Debug\netcoreapp3.0\TextJustifyer.AssemblyInfoInputs.cache
+\\GMRDC1\Folder Redirection\iggy.glassman\Documents\Visual Studio 2019\Projects\TextJustifyer\TextJustifyer\obj\Debug\netcoreapp3.0\TextJustifyer.AssemblyInfo.cs
+\\GMRDC1\Folder Redirection\iggy.glassman\Documents\Visual Studio 2019\Projects\TextJustifyer\TextJustifyer\obj\Debug\netcoreapp3.0\TextJustifyer.csproj.CoreCompileInputs.cache
+\\GMRDC1\Folder Redirection\iggy.glassman\Documents\Visual Studio 2019\Projects\TextJustifyer\TextJustifyer\obj\Debug\netcoreapp3.0\TextJustifyer.csproj.CopyComplete
+\\GMRDC1\Folder Redirection\iggy.glassman\Documents\Visual Studio 2019\Projects\TextJustifyer\TextJustifyer\obj\Debug\netcoreapp3.0\TextJustifyer.dll
+\\GMRDC1\Folder Redirection\iggy.glassman\Documents\Visual Studio 2019\Projects\TextJustifyer\TextJustifyer\obj\Debug\netcoreapp3.0\TextJustifyer.pdb
+\\GMRDC1\Folder Redirection\iggy.glassman\Documents\Visual Studio 2019\Projects\TextJustifyer\TextJustifyer\obj\Debug\netcoreapp3.0\TextJustifyer.genruntimeconfig.cache

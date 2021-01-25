@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "jTywIEZaivqp8RY+7s4gs2ItcPcJigBD7wB5OeDZiqTFz6S16v2642aFT3WIWgcwM/A7TSDVTWvuLmUOvQnGlA==",
+  "dgSpecHash": "QfSkPL0OwkfZMdfUFfVVr/aOd9UUIEEIieyGaMmNQt31AvGVTSA9qzO/uTWn8kbkWstpviuDmHIole+ORwKYcw==",
   "success": true,
-  "projectFilePath": "\\\\GMRDC1\\Folder Redirection\\Iggy.Glassman\\Documents\\Visual Studio 2019\\Projects\\TextJustifyer\\TextJustifyer\\TextJustifyer.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "\\\\GMRDC1\\Folder Redirection\\iggy.glassman\\Documents\\Visual Studio 2019\\Projects\\TextJustifyer\\TextJustifyer\\TextJustifyer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\iggy.glassman\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "C:\\Users\\iggy.glassman\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\iggy.glassman\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.0.3\\microsoft.netcore.app.host.win-x64.3.0.3.nupkg.sha512",
+    "C:\\Users\\iggy.glassman\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

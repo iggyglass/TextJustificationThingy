@@ -1,6 +1,7 @@
 ﻿using System.Text.RegularExpressions;
-using System;
+using System.Collections.Generic;
 using RopeDataStructure;
+using System;
 
 namespace TextJustifyer
 {
@@ -8,12 +9,31 @@ namespace TextJustifyer
     {
         static void Main(string[] args)
         {
-            string test = "This is a test paragraph used for testing this text justification thingy.\nI am unsure where I am going with my current musings,\nbut this is probably enough of a sample if I were to wrap it up here, which is exactly what I am doing currently.";
-            Rope rope = new Rope(test);
+            while (true)
+            {
+                Console.WriteLine("Enter Text: ");
+                string text = Console.ReadLine();
 
-            JustifyText(rope, 20);
+                Console.WriteLine("Enter Width: ");
+                int width = int.Parse(Console.ReadLine());
 
-            Console.WriteLine(rope.Report());
+                Console.WriteLine("=============================");
+
+                Rope rope = new Rope(text);
+                JustifyText(rope, width);
+
+                PrintLines(rope.ReportNodeValues());
+
+                Console.WriteLine("=============================");
+            }
+        }
+
+        static void PrintLines(List<string> lines)
+        {
+            foreach (string line in lines)
+            {
+                Console.WriteLine(line);
+            }
         }
 
         static void JustifyText(Rope rope, int width)

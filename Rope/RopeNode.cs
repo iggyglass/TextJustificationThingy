@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace RopeDataStructure
+﻿namespace RopeDataStructure
 {
     internal class RopeNode
     {

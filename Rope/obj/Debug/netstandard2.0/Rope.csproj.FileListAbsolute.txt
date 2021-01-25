@@ -6,3 +6,12 @@ C:\Users\iggyg\source\repos\TextJustificationThingy\Rope\obj\Debug\netstandard2.
 C:\Users\iggyg\source\repos\TextJustificationThingy\Rope\obj\Debug\netstandard2.0\Rope.AssemblyInfo.cs
 C:\Users\iggyg\source\repos\TextJustificationThingy\Rope\obj\Debug\netstandard2.0\Rope.dll
 C:\Users\iggyg\source\repos\TextJustificationThingy\Rope\obj\Debug\netstandard2.0\Rope.pdb
+\\GMRDC1\Folder Redirection\iggy.glassman\Documents\Visual Studio 2019\Projects\TextJustifyer\Rope\bin\Debug\netstandard2.0\Rope.deps.json
+\\GMRDC1\Folder Redirection\iggy.glassman\Documents\Visual Studio 2019\Projects\TextJustifyer\Rope\bin\Debug\netstandard2.0\Rope.dll
+\\GMRDC1\Folder Redirection\iggy.glassman\Documents\Visual Studio 2019\Projects\TextJustifyer\Rope\bin\Debug\netstandard2.0\Rope.pdb
+\\GMRDC1\Folder Redirection\iggy.glassman\Documents\Visual Studio 2019\Projects\TextJustifyer\Rope\obj\Debug\netstandard2.0\Rope.csprojAssemblyReference.cache
+\\GMRDC1\Folder Redirection\iggy.glassman\Documents\Visual Studio 2019\Projects\TextJustifyer\Rope\obj\Debug\netstandard2.0\Rope.AssemblyInfoInputs.cache
+\\GMRDC1\Folder Redirection\iggy.glassman\Documents\Visual Studio 2019\Projects\TextJustifyer\Rope\obj\Debug\netstandard2.0\Rope.AssemblyInfo.cs
+\\GMRDC1\Folder Redirection\iggy.glassman\Documents\Visual Studio 2019\Projects\TextJustifyer\Rope\obj\Debug\netstandard2.0\Rope.csproj.CoreCompileInputs.cache
+\\GMRDC1\Folder Redirection\iggy.glassman\Documents\Visual Studio 2019\Projects\TextJustifyer\Rope\obj\Debug\netstandard2.0\Rope.dll
+\\GMRDC1\Folder Redirection\iggy.glassman\Documents\Visual Studio 2019\Projects\TextJustifyer\Rope\obj\Debug\netstandard2.0\Rope.pdb

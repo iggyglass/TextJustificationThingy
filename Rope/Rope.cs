@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Text;
 
 namespace RopeDataStructure
@@ -84,6 +83,39 @@ namespace RopeDataStructure
             return builder.ToString();
         }
 
+        public List<string> ReportNodeValues()
+        {
+            List<string> values = new List<string>();
+
+            reportNodeValues(Root, values);
+
+            return values;
+        }
+
+        public void Concat(Rope other)
+        {
+            RopeNode newNode = new RopeNode("");
+
+            newNode.Left = Root;
+            newNode.Right = other.Root;
+
+            Root.Parent = newNode;
+            other.Root.Parent = newNode;
+
+            newNode.Weight = getLength(newNode.Left);
+
+            Length += other.Length;
+            Root = newNode;
+        }
+
+        public void Delete(int start, int end)
+        {
+            Rope temp = Split(start);
+            Rope other = temp.Split(end - start);
+
+            Concat(other);
+        }
+
         private (RopeNode node, int charIndexInNode) nodeAtIndex(RopeNode current, int i)
         {
             if (current.Weight <= i && current.Right != null)
@@ -131,20 +163,19 @@ namespace RopeDataStructure
             reportNode(current.Right, builder);
         }
 
-        public void Concat(Rope other)
+        private void reportNodeValues(RopeNode current, List<string> values)
         {
-            RopeNode newNode = new RopeNode("");
+            if (current == null) return;
 
-            newNode.Left = Root;
-            newNode.Right = other.Root;
-
-            Root.Parent = newNode;
-            other.Root.Parent = newNode;
-
-            newNode.Weight = getLength(newNode.Left);
-
-            Length += other.Length;
-            Root = newNode;
+            if (current.Text != "") // Only leaf nodes have non-empty text
+            {
+                values.Add(current.Text);
+            }
+            else
+            {
+                reportNodeValues(current.Left, values);
+                reportNodeValues(current.Right, values);
+            }
         }
     }
 }
