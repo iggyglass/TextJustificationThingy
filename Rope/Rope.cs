@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Text;
 
 namespace RopeDataStructure
@@ -25,22 +26,26 @@ namespace RopeDataStructure
         {
             get
             {
+                if (i < 0 || i > Length) throw new IndexOutOfRangeException();
+
                 (RopeNode node, int index) = nodeAtIndex(Root, i);
                 return node.Text[index];
             }
         }
 
-        public Rope Split(int i)
+        public Rope Split(int index)
         {
-            (RopeNode current, int index) = nodeAtIndex(Root, i);
+            if (index < 0 || index > Length) throw new IndexOutOfRangeException();
 
-            if (index != 0) // If split location is not at the start of the string
+            (RopeNode current, int i) = nodeAtIndex(Root, index);
+
+            if (i != 0) // If split location is not at the start of the string
             {
-                splitNode(current, index);
+                splitNode(current, i);
                 current = current.Left;
             }
 
-            if (current == current.Parent.Right) // if the node is a right node, then start at its parent
+            if (current.Parent != null && current == current.Parent.Right) // if the node is a right node, then start at its parent
             {
                 current = current.Parent;
             }
@@ -61,6 +66,8 @@ namespace RopeDataStructure
 
                 current = current.Parent;
             }
+
+            if (orphans.Count == 0) return new Rope("");
 
             Rope rope = new Rope(orphans.Dequeue());
 
@@ -110,25 +117,38 @@ namespace RopeDataStructure
 
         public void Delete(int start, int end)
         {
-            Rope temp = Split(start);
-            Rope other = temp.Split(end - start);
+            if (start > end) throw new Exception("Start position is greater than end position.");
+            if (start > Length || end > Length) throw new IndexOutOfRangeException();
 
-            Concat(other);
-        }
+            if (start == 0)
+            {
+                Rope temp = Split(end);
 
-        private (RopeNode node, int charIndexInNode) nodeAtIndex(RopeNode current, int i)
-        {
-            if (current.Weight <= i && current.Right != null)
-            {
-                return nodeAtIndex(current.Right, i - current.Weight);
-            }
-            else if (current.Left != null)
-            {
-                return nodeAtIndex(current.Left, i);
+                Root = temp.Root;
+                Length = temp.Length;
             }
             else
             {
-                return (current, i);
+                Rope temp = Split(start);
+                Rope other = temp.Split(end - start);
+
+                Concat(other);
+            }
+        }
+
+        private (RopeNode node, int indexOfCharInNode) nodeAtIndex(RopeNode current, int index)
+        {
+            if (current.Weight <= index && current.Right != null)
+            {
+                return nodeAtIndex(current.Right, index - current.Weight);
+            }
+            else if (current.Left != null)
+            {
+                return nodeAtIndex(current.Left, index);
+            }
+            else
+            {
+                return (current, index);
             }
         }
 
@@ -139,10 +159,10 @@ namespace RopeDataStructure
             return current.Text.Length + getLength(current.Left) + getLength(current.Right);
         }
 
-        private void splitNode(RopeNode current, int i)
+        private void splitNode(RopeNode current, int index)
         {
-            string left = current.Text.Substring(0, i);
-            string right = current.Text.Substring(i);
+            string left = current.Text.Substring(0, index);
+            string right = current.Text.Substring(index);
 
             current.Left = new RopeNode(left);
             current.Right = new RopeNode(right);
